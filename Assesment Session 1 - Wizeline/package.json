@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "name": "assesment",
+  "version": "1.0.0",
+  "description": "Assesment session 1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/test",
+    "test-all-safari": "testcafe safari ./page_model/test"
+  },
+  "author": "Olympia Garrocho",
+  "license": "ISC"
+}
